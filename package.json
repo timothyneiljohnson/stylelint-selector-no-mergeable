@@ -1,0 +1,35 @@
+{
+  "name": "stylelint-selector-no-mergeable",
+  "version": "1.0.3",
+  "description": "A custom stylelint rule to catch mergeable selectors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyneiljohnson/stylelint-selector-no-mergeable.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "linter"
+  ],
+  "author": {
+    "name": "Tim Johnson"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timothyneiljohnson/stylelint-selector-no-mergeable/issues"
+  },
+  "homepage": "https://github.com/timothyneiljohnson/stylelint-selector-no-mergeable#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "stylelint": ">=3.0.2",
+    "stylelint-rule-tester": "^0.6.1"
+  }
+}
