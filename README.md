@@ -16,7 +16,7 @@ This plugin is compatible with v5.0.1+.
 
 ## Details
 
-There are two pieces to this plugin. Catching missed opportunities to nest rules (under-nesting), and catching over-usage of nesting (over-nesting).
+There are two major pieces to this plugin. Catching missed opportunities to nest rules (under-nesting), and catching over-usage of nesting (over-nesting).
 
 Here are some examples of 'under-nesting':
 ```css
@@ -57,9 +57,6 @@ a {
   }
 }
 ```
-
-
-
 
 Here is an example of 'over-nesting':
 
@@ -104,3 +101,15 @@ Example:
   }
 };
 ```
+
+NOTE: This plugins currently finds mergeable PARENT selectors:
+```
+a .class1
+a .class2
+```
+It does NOT, unfortunately, detect mergeable chained selectors:
+```
+a.class1
+a.class2
+```
+This will hopefully come in a newer release, but will require quite a bit of testing.
