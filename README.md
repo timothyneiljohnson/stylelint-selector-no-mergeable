@@ -102,6 +102,8 @@ Example:
 };
 ```
 
+
+
 NOTE: This plugins currently finds mergeable PARENT selectors:
 ```
 a .class1
