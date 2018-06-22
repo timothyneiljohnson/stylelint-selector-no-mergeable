@@ -97,7 +97,7 @@ Example:
     "stylelint-selector-no-mergeable"
   ],
   "rules": {
-    "selector-no-mergeable": [ true, { "allowVanityNesting": true|false } ]
+    "selector-no-mergeable/selector-no-mergeable": [ true, { "allowVanityNesting": true|false } ]
   }
 };
 ```

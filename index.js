@@ -2,7 +2,7 @@
 
 const assign = require('object-assign');
 const stylelint = require('stylelint');
-const ruleName = 'selector-no-mergeable';
+const ruleName = 'selector-no-mergeable/selector-no-mergeable';
 const messages = stylelint.utils.ruleMessages(ruleName, {});
 
 const arrayContains = (searchItem, array) =>
